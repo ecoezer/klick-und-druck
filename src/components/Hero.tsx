@@ -23,12 +23,13 @@ function Hero() {
       </nav>
 
       <div className="hero-content">
-        <h1 className="hero-subtitle">
-          Nosu is your natural shield against sweet temptations
-        </h1>
         <a href="#contact" className="hero-cta">
-          Get Nosu
+          Jetzt anfragen
         </a>
+        <p className="hero-subtitle">
+          Von der Speisekarte bis zum QR-Bestellsystem – alles aus einer Hand.<br />
+          Professionelle Drucklösungen für Gastronomie und Unternehmen.
+        </p>
       </div>
     </section>
   )
