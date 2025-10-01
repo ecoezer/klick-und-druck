@@ -163,7 +163,10 @@
 .hero-subtitle {
   font-size: 56px;
   font-weight: 700;
-  color: #0d3b3f;
+  background: linear-gradient(135deg, #a8d5d3 0%, #7fc8c4 50%, #5a9f9b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   max-width: 900px;
   line-height: 1.2;
   letter-spacing: -0.03em;
