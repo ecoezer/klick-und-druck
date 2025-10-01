@@ -1,5 +1,5 @@
 .contact {
-  background: linear-gradient(180deg, #ffffff 0%, #f8fcfd 100%);
+  background: #ffffff;
   position: relative;
 }
 
@@ -10,7 +10,7 @@
   right: 10%;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(173, 216, 230, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(127, 200, 196, 0.1) 0%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
 }
@@ -25,21 +25,18 @@
 
 .contact-info-title {
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 24px;
-  letter-spacing: -0.01em;
-  background: linear-gradient(135deg, #1a1a1a 0%, #4a90a4 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  letter-spacing: -0.02em;
+  color: #0d3b3f;
 }
 
 .contact-info-text {
   font-size: 18px;
-  color: #666;
-  line-height: 1.8;
+  color: #5a6a6a;
+  line-height: 1.7;
   margin-bottom: 48px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .contact-details {
@@ -54,14 +51,14 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 8px;
-  font-weight: 500;
-  color: #4a90a4;
+  font-weight: 600;
+  color: #7fc8c4;
 }
 
 .contact-detail p {
   font-size: 18px;
-  color: #1a1a1a;
-  font-weight: 300;
+  color: #0d3b3f;
+  font-weight: 400;
 }
 
 .contact-form {
@@ -74,19 +71,19 @@
 .form-group textarea {
   width: 100%;
   padding: 16px;
-  border: 2px solid rgba(173, 216, 230, 0.3);
-  background-color: #ffffff;
+  border: 2px solid rgba(127, 200, 196, 0.2);
+  background-color: #f5f9f9;
   font-family: inherit;
   font-size: 16px;
-  border-radius: 8px;
+  border-radius: 12px;
   transition: all 0.3s ease;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #87ceeb;
-  box-shadow: 0 0 0 4px rgba(173, 216, 230, 0.1);
+  border-color: #7fc8c4;
+  box-shadow: 0 0 0 4px rgba(127, 200, 196, 0.1);
   transform: translateY(-2px);
 }
 
@@ -97,17 +94,17 @@
 
 .submit-button {
   padding: 16px 48px;
-  background: linear-gradient(135deg, #4a90a4 0%, #5ba3b8 100%);
+  background: #7fc8c4;
   color: #ffffff;
   border: none;
   font-family: inherit;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   cursor: pointer;
   border-radius: 50px;
   transition: all 0.3s ease;
   align-self: flex-start;
-  box-shadow: 0 4px 15px rgba(74, 144, 164, 0.3);
+  box-shadow: 0 4px 15px rgba(127, 200, 196, 0.3);
   position: relative;
   overflow: hidden;
 }
@@ -132,7 +129,7 @@
 
 .submit-button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 30px rgba(74, 144, 164, 0.4);
+  box-shadow: 0 12px 30px rgba(127, 200, 196, 0.4);
 }
 
 @media (max-width: 768px) {

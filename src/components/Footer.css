@@ -1,5 +1,5 @@
 .footer {
-  background-color: #1a1a1a;
+  background-color: #0d3b3f;
   color: #ffffff;
   padding: 80px 24px 32px;
 }
@@ -15,15 +15,16 @@
 
 .footer-title {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 24px;
   letter-spacing: 0.05em;
+  color: #7fc8c4;
 }
 
 .footer-text {
-  color: #999;
-  line-height: 1.8;
-  font-weight: 300;
+  color: #a0b8b8;
+  line-height: 1.7;
+  font-weight: 400;
 }
 
 .footer-links {
@@ -34,33 +35,33 @@
 }
 
 .footer-links a {
-  color: #999;
+  color: #a0b8b8;
   text-decoration: none;
   transition: color 0.3s ease;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .footer-links a:hover {
-  color: #ffffff;
+  color: #7fc8c4;
 }
 
 .footer-links li {
-  color: #999;
-  font-weight: 300;
+  color: #a0b8b8;
+  font-weight: 400;
 }
 
 .footer-bottom {
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 32px;
-  border-top: 1px solid #333;
+  border-top: 1px solid rgba(127, 200, 196, 0.2);
   text-align: center;
 }
 
 .footer-bottom p {
-  color: #666;
+  color: #7a9090;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {

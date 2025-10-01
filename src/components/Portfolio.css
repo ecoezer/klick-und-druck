@@ -1,5 +1,5 @@
 .portfolio {
-  background: linear-gradient(180deg, #f8fcfd 0%, #e8f4f8 100%);
+  background: #f5f9f9;
   position: relative;
 }
 
@@ -10,7 +10,7 @@
   right: -5%;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(173, 216, 230, 0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(127, 200, 196, 0.08) 0%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
 }
@@ -24,10 +24,10 @@
 .portfolio-item {
   background-color: #ffffff;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 16px;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
-  box-shadow: 0 4px 15px rgba(74, 144, 164, 0.08);
+  box-shadow: 0 4px 15px rgba(127, 200, 196, 0.08);
   position: relative;
 }
 
@@ -35,9 +35,9 @@
   content: '';
   position: absolute;
   inset: 0;
-  border-radius: 12px;
+  border-radius: 16px;
   padding: 2px;
-  background: linear-gradient(135deg, #add8e6, #87ceeb);
+  background: #7fc8c4;
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -47,7 +47,7 @@
 
 .portfolio-item:hover {
   transform: translateY(-12px) scale(1.02);
-  box-shadow: 0 25px 50px rgba(74, 144, 164, 0.2);
+  box-shadow: 0 25px 50px rgba(127, 200, 196, 0.15);
 }
 
 .portfolio-item:hover::after {
@@ -58,7 +58,7 @@
   width: 100%;
   height: 320px;
   overflow: hidden;
-  background: linear-gradient(135deg, #e8f4f8 0%, #d4eaf2 100%);
+  background: linear-gradient(135deg, #e8f5f4 0%, #d8eeed 100%);
   position: relative;
 }
 
@@ -66,7 +66,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(173, 216, 230, 0.2) 0%, transparent 100%);
+  background: linear-gradient(135deg, rgba(127, 200, 196, 0.15) 0%, transparent 100%);
   opacity: 0;
   transition: opacity 0.4s ease;
   z-index: 1;
@@ -95,24 +95,21 @@
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #4a90a4;
-  font-weight: 500;
-  background: linear-gradient(90deg, #add8e6, #87ceeb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #7fc8c4;
+  font-weight: 600;
 }
 
 .portfolio-title {
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 700;
   margin-top: 8px;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
+  color: #0d3b3f;
   transition: color 0.3s ease;
 }
 
 .portfolio-item:hover .portfolio-title {
-  color: #4a90a4;
+  color: #7fc8c4;
 }
 
 @media (max-width: 768px) {
