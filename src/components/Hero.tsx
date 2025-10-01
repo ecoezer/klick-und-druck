@@ -17,7 +17,6 @@ function Hero() {
           <div className="logo">KLICK-UND-DRUCK</div>
 
           <div className="nav-right">
-            <a href="#contact" className="nav-btn">Jetzt starten</a>
           </div>
         </div>
       </nav>
