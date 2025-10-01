@@ -18,11 +18,11 @@
   font-weight: 700;
   margin-bottom: 24px;
   letter-spacing: 0.05em;
-  color: #7fc8c4;
+  color: #ffffff;
 }
 
 .footer-text {
-  color: #a0b8b8;
+  color: #ffffff;
   line-height: 1.7;
   font-weight: 400;
 }
@@ -35,18 +35,18 @@
 }
 
 .footer-links a {
-  color: #a0b8b8;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.3s ease;
   font-weight: 400;
 }
 
 .footer-links a:hover {
-  color: #7fc8c4;
+  color: #0d3b3f;
 }
 
 .footer-links li {
-  color: #a0b8b8;
+  color: #ffffff;
   font-weight: 400;
 }
 
@@ -54,12 +54,12 @@
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 32px;
-  border-top: 1px solid rgba(127, 200, 196, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
   text-align: center;
 }
 
 .footer-bottom p {
-  color: #7a9090;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 400;
 }
