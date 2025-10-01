@@ -35,7 +35,7 @@ function Contact() {
           <div className="contact-details">
             <div className="contact-detail">
               <strong>Email</strong>
-              <p>info@printdesign.de</p>
+              <p>info@klick-und-druck.de</p>
             </div>
             <div className="contact-detail">
               <strong>Telefon</strong>

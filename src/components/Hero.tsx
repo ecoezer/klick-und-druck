@@ -5,7 +5,7 @@ function Hero() {
     <section className="hero">
       <nav className="nav">
         <div className="nav-content">
-          <div className="logo">PRINT DESIGN</div>
+          <div className="logo">KLICK-UND-DRUCK</div>
           <div className="nav-links">
             <a href="#services">Leistungen</a>
             <a href="#portfolio">Portfolio</a>
@@ -16,12 +16,12 @@ function Hero() {
 
       <div className="hero-content">
         <h1 className="hero-title">
-          Professionelles<br />
-          Print Design
+          Von der Speisekarte<br />
+          bis zum QR-Bestellsystem
         </h1>
         <p className="hero-subtitle">
-          Wir gestalten Ihre Werbematerialien mit Präzision und Kreativität.<br />
-          Flyer, Schilder, Firmenwerbung und mehr.
+          Alles aus einer Hand – professionelle Drucklösungen<br />
+          für Gastronomie und Unternehmen.
         </p>
         <a href="#contact" className="hero-cta">
           Projekt starten

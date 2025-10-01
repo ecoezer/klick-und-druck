@@ -5,9 +5,9 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h4 className="footer-title">PRINT DESIGN</h4>
+          <h4 className="footer-title">KLICK-UND-DRUCK</h4>
           <p className="footer-text">
-            Professionelle Drucklösungen für Ihr Unternehmen.
+            Von der Speisekarte bis zum QR-Bestellsystem – alles aus einer Hand.
           </p>
         </div>
 
@@ -24,14 +24,14 @@ function Footer() {
         <div className="footer-section">
           <h4 className="footer-title">Kontakt</h4>
           <ul className="footer-links">
-            <li>info@printdesign.de</li>
+            <li>info@klick-und-druck.de</li>
             <li>+49 123 456 7890</li>
           </ul>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; 2025 Print Design Agency. Alle Rechte vorbehalten.</p>
+        <p>&copy; 2025 Klick-und-Druck. Alle Rechte vorbehalten.</p>
       </div>
     </footer>
   )
