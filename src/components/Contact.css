@@ -6,45 +6,45 @@
 .contact-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 64px;
-  max-width: 900px;
+  gap: 32px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .contact-info-title {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   letter-spacing: -0.01em;
   color: #1a1a1a;
 }
 
 .contact-info-text {
-  font-size: 15px;
+  font-size: 13px;
   color: #666;
-  line-height: 1.6;
-  margin-bottom: 40px;
+  line-height: 1.5;
+  margin-bottom: 24px;
   font-weight: 400;
 }
 
 .contact-details {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 }
 
 .contact-detail strong {
   display: block;
-  font-size: 12px;
+  font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 6px;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
   font-weight: 500;
   color: #999;
 }
 
 .contact-detail p {
-  font-size: 16px;
+  font-size: 13px;
   color: #1a1a1a;
   font-weight: 400;
 }
@@ -52,18 +52,18 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 12px;
 }
 
 .form-group input,
 .form-group textarea {
   width: 100%;
-  padding: 14px;
+  padding: 10px;
   border: 1px solid #e0e0e0;
   background-color: #ffffff;
   font-family: inherit;
-  font-size: 15px;
-  border-radius: 8px;
+  font-size: 13px;
+  border-radius: 6px;
   transition: all 0.2s ease;
 }
 
@@ -76,22 +76,22 @@
 
 .form-group textarea {
   resize: vertical;
-  min-height: 120px;
+  min-height: 80px;
 }
 
 .submit-button {
-  padding: 14px 40px;
+  padding: 8px 24px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: #ffffff;
   border: none;
   font-family: inherit;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 6px;
   transition: all 0.2s ease;
   align-self: flex-start;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
 }
 
 .submit-button:hover {
@@ -102,15 +102,15 @@
 @media (max-width: 768px) {
   .contact-content {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 24px;
   }
 
   .contact-info-title {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .contact-info-text {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .submit-button {
